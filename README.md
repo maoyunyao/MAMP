@@ -89,7 +89,7 @@ python pku_gendata.py
 ```
 
 # Training and Testing
-Please refer to the bash scripts
+Please refer to the bash scripts. Note that we are verifying the correctness of these scripts. If you find any problems with the code, please feel free to open an issue or contact us by sending an email to myy2016[AT]mail.ustc.edu.cn.
 
 # Citation
 If you find this work useful for your research, please consider citing our work:
