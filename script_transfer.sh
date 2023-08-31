@@ -1,7 +1,7 @@
 export OMP_NUM_THREADS=1
 export CUDA_VISIBLE_DEVICES=2,3
 
-# transfer. sota
+# mamp
 python -m torch.distributed.launch --nproc_per_node=2 --master_port 12345 main_finetune.py \
 --config ./config/pkuv2_xsub_joint/finetune_t120_layer8_decay.yaml \
 --output_dir ./output_dir/pkuv2_xsub_joint/transfer_from_ntu60_mamp_t120_layer8+3_mask90_tau0.80_ep400_400_warm5_dpr0.3_dr0.3_decay0.8_lr3e-4_minlr1e-5 \
@@ -31,7 +31,7 @@ python -m torch.distributed.launch --nproc_per_node=2 --master_port 12345 main_f
 
 
 
-# transfer. skeletonmae
+# mae
 python -m torch.distributed.launch --nproc_per_node=2 --master_port 12345 main_finetune.py \
 --config ./config/pkuv2_xsub_joint/finetune_t120_layer8_decay.yaml \
 --output_dir ./output_dir/pkuv2_xsub_joint/transfer_from_ntu60_mae_t120_layer8+3_mask90_ep400_400_warm5_dpr0.3_dr0.3_decay0.8_lr3e-4_minlr1e-5 \

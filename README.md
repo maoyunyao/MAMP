@@ -58,12 +58,12 @@ Put downloaded data into the following directory structure:
   - pku_v1/
   - pku_v2/
   - pku_raw/
-    - v1
+    - v1/
       - label/
       - skeleton/
       - cross_subject.txt
       - cross_view.txt
-    - v2
+    - v2/
       - label/
       - skeleton/
       - cross_subject_v2.txt
