@@ -1,0 +1,8 @@
+__pycache__
+*.pyc
+*.npz
+*.zip
+*.7z
+*.pth
+
+output_dir
