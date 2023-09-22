@@ -91,7 +91,7 @@ python pku_gendata.py
 # Training and Testing
 Please refer to the bash scripts. Note that we are verifying the correctness of these scripts. If you find any problems with the code, please feel free to open an issue or contact us by sending an email to myy2016[AT]mail.ustc.edu.cn.
 
-# Pretrained Models
+### Pretrained Models
 You can find the latest pretrained models [here](https://rec.ustc.edu.cn/share/64bde560-5939-11ee-bf1f-5fbb082a1db4).
 | Protocols | NTU-60 X-sub | NTU-60 X-view | NTU-120 X-sub | NTU-120 X-set |
 |:---------:|:------------:|:-------------:|:-------------:|:-------------:|
